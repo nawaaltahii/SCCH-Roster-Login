@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myinfo | Southern Care Support Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2f1;
+        }
+        .header {
+            background-color: #004d40;
+            color: white;
+            padding: 16px;
+            font-size: 18px;
+            text-align: center;
+        }
+        .period {
+            background: #ffffff;
+            margin: 10px;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 18px;
+            padding: 0 15px;
+            margin: 15px 0 5px;
+            color: #004d40;
+        }
+        .date-dropdown {
+            padding: 0 15px 20px;
+            font-size: 15px;
+            color: #00695c;
+        }
+        .date-dropdown select {
+            margin-top: 6px;
+            padding: 6px;
+            font-size: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        .card {
+            background-color: #b2dfdb;
+            margin: 10px 15px;
+            padding: 12px;
+            border-radius: 10px;
+        }
+        .day {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .shift {
+            background-color: #e0f2f1;
+            margin-top: 8px;
+            padding: 10px 12px;
+            border-left: 4px solid #00796b;
+            border-radius: 6px;
+        }
+        .no-highlight {
+            background-color: #ffffff;
+            border-left: 4px solid #b0bec5;
+        }
+        .checked {
+            background-color: #c8e6c9 !important;
+            border-left-color: #388e3c !important;
+        }
+        .time {
+            font-size: 14px;
+            color: #2e7d32;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #555;
+            margin: 30px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">myinfo</div>
+    <div class="period">1 Apr 2025 – 30 Apr 2025</div>
+    <div class="section-title">Confirm your planned services</div>
+    <div class="date-dropdown">
+        <label for="week-select"><strong>Select period:</strong></label>
+        <select id="week-select" name="week-select">
+            <option>1–7 Apr 2025</option>
+            <option>8–14 Apr 2025</option>
+            <option>15–21 Apr 2025</option>
+            <option selected>22–30 Apr 2025</option>
+        </select>
+    </div>
+    
+    <div class="card">
+        <div class="day">Tuesday 1 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Wednesday 2 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Thursday 3 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Friday 4 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Saturday 5 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Sunday 6 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Monday 7 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Tuesday 8 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Wednesday 9 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Thursday 10 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Friday 11 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Saturday 12 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Sunday 13 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Monday 14 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Tuesday 15 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Wednesday 16 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Thursday 17 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Friday 18 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Saturday 19 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Sunday 20 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Monday 21 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Tuesday 22 April 2025</div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift">✔ Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight">✔ Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Wednesday 23 April 2025</div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift"> Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Thursday 24 April 2025</div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift"> Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Friday 25 April 2025</div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift"> Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Saturday 26 April 2025</div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift"> Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Sunday 27 April 2025</div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift"> Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Monday 28 April 2025</div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift"> Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Tuesday 29 April 2025</div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift"> Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="card">
+        <div class="day">Wednesday 30 April 2025</div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">17:00 – 22:00</span></div>
+        <div class="shift"> Riccardo Battaglia – Sleepover<br><span class="time">22:00 – 06:00</span></div>
+        <div class="shift no-highlight"> Riccardo Battaglia – Attendant Care<br><span class="time">06:00 – 12:00</span></div>
+    </div>
+    
+    <div class="footer">myinfo.southerncaresupport.com.au | Staff Portal</div>
+</body>
+</html>
